@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #222f56;
+  --secondary-color: #052995;
+}
+
+body {
+  background-color: var(--primary-color) !important;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+#orderSummary {
+  margin-bottom: 20px;
+}
+
+#totalPrice {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#confirmButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#confirmButton:hover {
+  background-color: #45a049;
+}
+#returnButton,
+#clearButton,
+#homeButton {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#returnButton:hover,
+#homeButton:hover {
+  background-color: #daca3e;
+}
+#clearButton:hover {
+  background-color: red;
+}
